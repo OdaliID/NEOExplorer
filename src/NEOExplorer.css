@@ -73,3 +73,30 @@ h1 {
   background-color: #cccccc;
   cursor: not-allowed;
 }
+
+.footer {
+  color: gray;
+  padding: 20px;
+  background-color: rgba(238, 232, 232, 0);
+  text-align: center;
+}
+
+@keyframes footer-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.footer-logo {
+  height: 6vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .footer-logo {
+    animation: footer-logo-spin infinite 10s linear;
+  }
+}
