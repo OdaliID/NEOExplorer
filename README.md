@@ -1,8 +1,8 @@
 ## Atividade: Mapear os objetos próximos a Terra
 
-    A NASA (agência especial norte americana) fornece diversas APIs públicas com dados e informações sobre seus estudos. Uma delas de chama API NEO (Near Earth Object), que retorna informações sobre objetos próximos à Terra, como asteroides e cometas.
+A NASA (agência especial norte americana) fornece diversas APIs públicas com dados e informações sobre seus estudos. Uma delas de chama API NEO (Near Earth Object), que retorna informações sobre objetos próximos à Terra, como asteroides e cometas.
 
-    Implemente um frontend utilizando ReactJS para listar esses objetos da API NEO.
+Implemente um frontend utilizando ReactJS para listar esses objetos da API NEO.
 
 ## Requisitos:
 
