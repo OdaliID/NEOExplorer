@@ -16,9 +16,10 @@ Exibir os seguintes dados de cada objeto:
 * A página deve ter um visual agradável, utilize CSS ou bibliotecas.
 
 ## Imagens:
+<img src="public\gif1.gif" alt="gif1">
 
 <img src="public\img1.png" alt="img1">
-==========
+
 <img src="public\img2.png" alt="img2">
 
 ## Observação:
