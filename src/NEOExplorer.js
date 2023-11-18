@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './NEOExplorer.css';
+import logo from './logo.svg';
 
 const NEOExplorer = () => {
   const [neoData, setNeoData] = useState([]);
@@ -66,6 +67,10 @@ const NEOExplorer = () => {
           Próxima Página
         </button>
       </div>
+      <footer className="footer">
+        <div>3ª Web Atividade DEV WEB &copy; 2023 - Todos os direitos reservados.</div>
+        <div>Desenvolvido com react <img src={logo} className="footer-logo" alt="logo" /></div>
+      </footer>
     </div>
   );
 };
