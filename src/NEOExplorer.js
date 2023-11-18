@@ -8,7 +8,7 @@ const NEOExplorer = () => {
   const [prevPage, setPrevPage] = useState('');
   const [currentPage, setCurrentPage] = useState('https://api.nasa.gov/neo/rest/v1/neo/browse');
 
-  const apiKey = 'CTa46KOVcwkKgVvoF4I64dqhpdXuiP7I7cvFRdAr';
+  const apiKey = 'SUA_API_KEY_NASA';
 
   useEffect(() => {
     fetchNEOData(currentPage);
