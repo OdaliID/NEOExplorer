@@ -15,6 +15,12 @@ Exibir os seguintes dados de cada objeto:
 * Formatar os dados, como datas e unidades de medidas (km);
 * A página deve ter um visual agradável, utilize CSS ou bibliotecas.
 
+## Imagens:
+
+<img src="public\img1.png" alt="img1">
+==========
+<img src="public\img2.png" alt="img2">
+
 ## Observação:
 
 Para a API funcionar deve fazer um cadastro em https://api.nasa.gov/ e preencher o formulário Generate API Key. Você irá receber um e-mail com uma chave, que será usada para acessar a API, para isso é necessário informar a Query Param api_key.
